@@ -12,7 +12,7 @@ env:
     DB_USER: '{database_mysql_user}'
     DB_PASSWORD: '{database_mysql_password}'
     DB_HOST: '{database_mysql_host}'
-    php_extensions: 'gd mysql mysqli opcache pdo_mysql soap'
+    php_extensions: 'gd mysql mysqli opcache pdo_mysql soap intl'
 requires:
     web:
         quantity: 1
